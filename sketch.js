@@ -10,7 +10,7 @@ function setup() {
   dispMode = 'mobile' //pc or mobile
   currentBuzzer = 0
   if(dispMode == 'pc')createCanvas(350,650)
-  if(dispMode == 'mobile')createCanvas(width,height);
+  if(dispMode == 'mobile')createCanvas(windowWidth,windowHeight);
   textAlign(CENTER,CENTER);
   textFont(steelr); noStroke();
 
