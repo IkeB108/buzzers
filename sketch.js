@@ -38,11 +38,11 @@ function draw() {
   text('<', width/5, height - (width/5))
   text('>', width - (width/5), height - (width/5))
 
-  fill(255,100)
-  rect(leftHitBox.x,leftHitBox.y,leftHitBox.w,leftHitBox.h)
+  //fill(255,100)
+  //rect(leftHitBox.x,leftHitBox.y,leftHitBox.w,leftHitBox.h)
 
-  fill(255,0,0,100)
-  rect(rightHitBox.x,rightHitBox.y,rightHitBox.w,rightHitBox.h)
+  //fill(255,0,0,100)
+  //rect(rightHitBox.x,rightHitBox.y,rightHitBox.w,rightHitBox.h)
 }
 
 function mouseClicked(){
