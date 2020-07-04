@@ -7,7 +7,7 @@ function preload(){
   steelr = loadFont('steelr.regular.ttf')
 }
 function setup() {
-  dispMode = 'pc' //pc or mobile
+  dispMode = 'mobile' //pc or mobile
   currentBuzzer = 0
   if(dispMode == 'pc')createCanvas(350,650)
   if(dispMode == 'mobile')createCanvas(width,height);
